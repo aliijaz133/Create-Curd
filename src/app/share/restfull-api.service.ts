@@ -7,7 +7,7 @@ import { retry, catchError } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class RestApiService {
-  private apiURL = 'https://curd-76bd3-default-rtdb.firebaseio.com';
+  private apiURL = 'https://crud-2ad03-default-rtdb.firebaseio.com';
   constructor(private http: HttpClient) {}
 
   httpOptions = {
