@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { RestApiService } from '../share/restfull-api.service';
-RestApiService;
 
 @Component({
   selector: 'employee-list',

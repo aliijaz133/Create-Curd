@@ -1,13 +1,10 @@
-<p>employee-list works!</p>
 <div class="container custom-container-2 mt-5">
-  <!-- Show it when there is no employee -->
   <div class="no-data text-center" *ngIf="Employee.length == 0">
     <p>There is no employee added yet!</p>
     <button class="btn btn-outline-primary" routerLink="/create-employee">
       Add Empoyee
     </button>
   </div>
-  <!-- Employees list table, it hides when there is no employee -->
   <div *ngIf="Employee.length !== 0">
     <h3 class="mb-3 text-center">Employees List</h3>
     <div class="col-md-12">
